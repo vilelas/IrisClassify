@@ -4,11 +4,6 @@ Este projeto utiliza o conjunto de dados "Iris" para criar uma rede neural simpl
 ## Conjunto de dados
 O conjunto de dados Iris consiste em 150 amostras de plantas Iris, cada uma com quatro atributos: largura e comprimento da sépala e da pétala. As amostras são rotuladas com a espécie de planta correspondente: Iris setosa, Iris versicolor ou Iris virginica.
 
-## Pré-processamento dos dados
-Primeiramente, importei os dados do conjunto Iris usando a biblioteca pandas e removi a coluna "Id", que não é necessária para a classificação das espécies. Em seguida, verifiquei se há valores duplicados e ausentes nas amostras.
-
-Também criei gráficos para visualizar a contagem de espécies e a correlação entre os atributos.
-
 ## Criação do modelo de rede neural
 O modelo de rede neural consiste em uma camada de entrada com 4 neurônios, uma camada oculta com 8 neurônios e uma camada de saída com 3 neurônios correspondentes às três espécies de plantas Iris. Além disso, adicionei uma camada de ``dropout`` para evitar overfitting.
 
@@ -21,6 +16,3 @@ Os valores de média e desvio padrão foram calculados a partir dos resultados o
 
 ## Resultados
 O modelo obteve um desempenho médio de 96% com desvio padrão de 0.044, indicando uma boa performance na classificação das espécies de plantas Iris.
-
-## Conclusão
-Este projeto demonstrou a utilização da biblioteca Keras em um problema de classificação de múltiplas classes e o uso da validação cruzada para avaliar o desempenho do modelo. O modelo criado obteve uma boa performance na classificação das espécies de plantas Iris.
