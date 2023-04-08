@@ -5,7 +5,7 @@ Este projeto utiliza o conjunto de dados "Iris" para criar uma rede neural simpl
 O conjunto de dados Iris consiste em 150 amostras de plantas Iris, cada uma com quatro atributos: largura e comprimento da sépala e da pétala. As amostras são rotuladas com a espécie de planta correspondente: Iris setosa, Iris versicolor ou Iris virginica.
 
 ## Pré-processamento dos dados
-Primeiramente, importei os dados do conjunto Iris usando a biblioteca pandas e removemos a coluna "Id", que não é necessária para a classificação das espécies. Em seguida, verifiquei se há valores duplicados e ausentes nas amostras.
+Primeiramente, importei os dados do conjunto Iris usando a biblioteca pandas e removi a coluna "Id", que não é necessária para a classificação das espécies. Em seguida, verifiquei se há valores duplicados e ausentes nas amostras.
 
 Também criei gráficos para visualizar a contagem de espécies e a correlação entre os atributos.
 
